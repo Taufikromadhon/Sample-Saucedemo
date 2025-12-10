@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Positive TCs,Chrome 142.0.0.0,,,2025-12-10 11:07:15,2025-12-10 11:08:41,"1m - 26,149s",PASSED
+,,,,,,,
+Test Cases/Positive/Success Login,Chrome 142.0.0.0,,,2025-12-10 11:07:15,2025-12-10 11:07:32,"16,618s",PASSED
+"openBrowser("""")",Chrome 142.0.0.0,,,2025-12-10 11:07:16,2025-12-10 11:07:19,"3,064s",PASSED
+"navigateToUrl(""saucedemo.com"")",Chrome 142.0.0.0,,,2025-12-10 11:07:19,2025-12-10 11:07:20,"1,083s",PASSED
+maximizeWindow(),Chrome 142.0.0.0,,,2025-12-10 11:07:20,2025-12-10 11:07:20,"0,089s",PASSED
+delay(5),Chrome 142.0.0.0,,,2025-12-10 11:07:20,2025-12-10 11:07:25,"5,029s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/input_username""), 0)",Chrome 142.0.0.0,,,2025-12-10 11:07:25,2025-12-10 11:07:25,"0,144s",PASSED
+"setText(findTestObject(""Login Page/input_username""), username)",Chrome 142.0.0.0,,,2025-12-10 11:07:25,2025-12-10 11:07:25,"0,296s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/input_password""), 0)",Chrome 142.0.0.0,,,2025-12-10 11:07:25,2025-12-10 11:07:25,"0,079s",PASSED
+"setText(findTestObject(""Login Page/input_password""), password)",Chrome 142.0.0.0,,,2025-12-10 11:07:25,2025-12-10 11:07:26,"0,207s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/btn_login""), 0)",Chrome 142.0.0.0,,,2025-12-10 11:07:26,2025-12-10 11:07:26,"0,074s",PASSED
+"enhancedClick(findTestObject(""Login Page/btn_login""), STOP_ON_FAILURE)",Chrome 142.0.0.0,,,2025-12-10 11:07:26,2025-12-10 11:07:26,"0,208s",PASSED
+delay(5),Chrome 142.0.0.0,,,2025-12-10 11:07:26,2025-12-10 11:07:31,"5,018s",PASSED
+"verifyElementPresent(findTestObject(""Products/lbl_products""), 0)",Chrome 142.0.0.0,,,2025-12-10 11:07:31,2025-12-10 11:07:32,"0,651s",PASSED
+takeScreenshot(),Chrome 142.0.0.0,,,2025-12-10 11:07:32,2025-12-10 11:07:32,"0,372s",PASSED
+,,,,,,,
+Test Cases/Positive/Success Login,Chrome 142.0.0.0,,,2025-12-10 11:07:32,2025-12-10 11:07:46,"14,464s",PASSED
+"openBrowser("""")",Chrome 142.0.0.0,,,2025-12-10 11:07:32,2025-12-10 11:07:34,"2,226s",PASSED
+"navigateToUrl(""saucedemo.com"")",Chrome 142.0.0.0,,,2025-12-10 11:07:34,2025-12-10 11:07:35,"0,847s",PASSED
+maximizeWindow(),Chrome 142.0.0.0,,,2025-12-10 11:07:35,2025-12-10 11:07:35,"0,052s",PASSED
+delay(5),Chrome 142.0.0.0,,,2025-12-10 11:07:35,2025-12-10 11:07:40,"5,011s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/input_username""), 0)",Chrome 142.0.0.0,,,2025-12-10 11:07:40,2025-12-10 11:07:40,"0,108s",PASSED
+"setText(findTestObject(""Login Page/input_username""), username)",Chrome 142.0.0.0,,,2025-12-10 11:07:40,2025-12-10 11:07:41,"0,292s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/input_password""), 0)",Chrome 142.0.0.0,,,2025-12-10 11:07:41,2025-12-10 11:07:41,"0,083s",PASSED
+"setText(findTestObject(""Login Page/input_password""), password)",Chrome 142.0.0.0,,,2025-12-10 11:07:41,2025-12-10 11:07:41,"0,252s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/btn_login""), 0)",Chrome 142.0.0.0,,,2025-12-10 11:07:41,2025-12-10 11:07:41,"0,075s",PASSED
+"enhancedClick(findTestObject(""Login Page/btn_login""), STOP_ON_FAILURE)",Chrome 142.0.0.0,,,2025-12-10 11:07:41,2025-12-10 11:07:41,"0,200s",PASSED
+delay(5),Chrome 142.0.0.0,,,2025-12-10 11:07:41,2025-12-10 11:07:46,"5,016s",PASSED
+"verifyElementPresent(findTestObject(""Products/lbl_products""), 0)",Chrome 142.0.0.0,,,2025-12-10 11:07:46,2025-12-10 11:07:46,"0,079s",PASSED
+takeScreenshot(),Chrome 142.0.0.0,,,2025-12-10 11:07:46,2025-12-10 11:07:46,"0,213s",PASSED
+,,,,,,,
+Test Cases/Positive/Success Logout,Chrome 142.0.0.0,,,2025-12-10 11:07:46,2025-12-10 11:08:41,"54,779s",PASSED
+"callTestCase(findTestCase(""Positive/Success Login""), [""username"":""standard_user"", ""password"":""secret_sauce""], STOP_ON_FAILURE)",Chrome 142.0.0.0,,,2025-12-10 11:07:47,2025-12-10 11:08:02,"14,841s",PASSED
+delay(3),Chrome 142.0.0.0,,,2025-12-10 11:08:02,2025-12-10 11:08:05,"3,020s",PASSED
+"verifyElementPresent(findTestObject(""Products/btn_burgerMenu""), 0)",Chrome 142.0.0.0,,,2025-12-10 11:08:05,2025-12-10 11:08:05,"0,062s",PASSED
+"enhancedClick(findTestObject(""Products/btn_burgerMenu""), STOP_ON_FAILURE)",Chrome 142.0.0.0,,,2025-12-10 11:08:05,2025-12-10 11:08:05,"0,170s",PASSED
+delay(3),Chrome 142.0.0.0,,,2025-12-10 11:08:05,2025-12-10 11:08:08,"3,008s",PASSED
+"verifyElementPresent(findTestObject(""Products/btn_logout""), 0)",Chrome 142.0.0.0,,,2025-12-10 11:08:08,2025-12-10 11:08:08,"0,064s",PASSED
+"enhancedClick(findTestObject(""Products/btn_logout""), STOP_ON_FAILURE)",Chrome 142.0.0.0,,,2025-12-10 11:08:08,2025-12-10 11:08:38,"30,214s",PASSED
+delay(3),Chrome 142.0.0.0,,,2025-12-10 11:08:38,2025-12-10 11:08:41,"3,004s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/btn_login""), 0)",Chrome 142.0.0.0,,,2025-12-10 11:08:41,2025-12-10 11:08:41,"0,079s",PASSED
+takeScreenshot(),Chrome 142.0.0.0,,,2025-12-10 11:08:41,2025-12-10 11:08:41,"0,104s",PASSED

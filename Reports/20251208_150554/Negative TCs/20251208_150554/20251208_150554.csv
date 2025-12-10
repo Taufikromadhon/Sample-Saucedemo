@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Negative TCs,Chrome 142.0.0.0,,,2025-12-08 15:05:57,2025-12-08 15:06:27,"30,360s",PASSED
+,,,,,,,
+Test Cases/Negative/Invalid Login Field Form Login,Chrome 142.0.0.0,,,2025-12-08 15:05:57,2025-12-08 15:06:12,"15,441s",PASSED
+"openBrowser("""")",Chrome 142.0.0.0,,,2025-12-08 15:05:57,2025-12-08 15:06:00,"3,061s",PASSED
+"navigateToUrl(""saucedemo.com"")",Chrome 142.0.0.0,,,2025-12-08 15:06:00,2025-12-08 15:06:01,"0,832s",PASSED
+maximizeWindow(),Chrome 142.0.0.0,,,2025-12-08 15:06:01,2025-12-08 15:06:01,"0,057s",PASSED
+delay(5),Chrome 142.0.0.0,,,2025-12-08 15:06:01,2025-12-08 15:06:06,"5,032s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/input_username""), 0)",Chrome 142.0.0.0,,,2025-12-08 15:06:06,2025-12-08 15:06:06,"0,130s",PASSED
+"setText(findTestObject(""Login Page/input_username""), username)",Chrome 142.0.0.0,,,2025-12-08 15:06:06,2025-12-08 15:06:07,"0,230s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/input_password""), 0)",Chrome 142.0.0.0,,,2025-12-08 15:06:07,2025-12-08 15:06:07,"0,076s",PASSED
+"setText(findTestObject(""Login Page/input_password""), password)",Chrome 142.0.0.0,,,2025-12-08 15:06:07,2025-12-08 15:06:07,"0,197s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/btn_login""), 0)",Chrome 142.0.0.0,,,2025-12-08 15:06:07,2025-12-08 15:06:07,"0,087s",PASSED
+"enhancedClick(findTestObject(""Login Page/btn_login""), STOP_ON_FAILURE)",Chrome 142.0.0.0,,,2025-12-08 15:06:07,2025-12-08 15:06:07,"0,169s",PASSED
+delay(5),Chrome 142.0.0.0,,,2025-12-08 15:06:07,2025-12-08 15:06:12,"5,005s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/lbl_doNotMatch""), 0)",Chrome 142.0.0.0,,,2025-12-08 15:06:12,2025-12-08 15:06:12,"0,090s",PASSED
+takeScreenshot(),Chrome 142.0.0.0,,,2025-12-08 15:06:12,2025-12-08 15:06:12,"0,084s",PASSED
+,,,,,,,
+Test Cases/Negative/Mandatory Field Form Login,Chrome 142.0.0.0,,,2025-12-08 15:06:12,2025-12-08 15:06:27,"14,673s",PASSED
+"openBrowser("""")",Chrome 142.0.0.0,,,2025-12-08 15:06:13,2025-12-08 15:06:15,"2,553s",PASSED
+"navigateToUrl(""saucedemo.com"")",Chrome 142.0.0.0,,,2025-12-08 15:06:15,2025-12-08 15:06:16,"0,885s",PASSED
+maximizeWindow(),Chrome 142.0.0.0,,,2025-12-08 15:06:16,2025-12-08 15:06:16,"0,040s",PASSED
+delay(5),Chrome 142.0.0.0,,,2025-12-08 15:06:16,2025-12-08 15:06:21,"5,013s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/input_username""), 0)",Chrome 142.0.0.0,,,2025-12-08 15:06:21,2025-12-08 15:06:21,"0,073s",PASSED
+"setText(findTestObject(""Login Page/input_username""), username)",Chrome 142.0.0.0,,,2025-12-08 15:06:21,2025-12-08 15:06:21,"0,205s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/input_password""), 0)",Chrome 142.0.0.0,,,2025-12-08 15:06:21,2025-12-08 15:06:21,"0,079s",PASSED
+"setText(findTestObject(""Login Page/input_password""), password)",Chrome 142.0.0.0,,,2025-12-08 15:06:21,2025-12-08 15:06:22,"0,184s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/btn_login""), 0)",Chrome 142.0.0.0,,,2025-12-08 15:06:22,2025-12-08 15:06:22,"0,084s",PASSED
+"enhancedClick(findTestObject(""Login Page/btn_login""), STOP_ON_FAILURE)",Chrome 142.0.0.0,,,2025-12-08 15:06:22,2025-12-08 15:06:22,"0,141s",PASSED
+delay(5),Chrome 142.0.0.0,,,2025-12-08 15:06:22,2025-12-08 15:06:27,"5,006s",PASSED
+"verifyElementPresent(findTestObject(""Login Page/lbl_errorMandatory""), 0)",Chrome 142.0.0.0,,,2025-12-08 15:06:27,2025-12-08 15:06:27,"0,075s",PASSED
+takeScreenshot(),Chrome 142.0.0.0,,,2025-12-08 15:06:27,2025-12-08 15:06:27,"0,063s",PASSED

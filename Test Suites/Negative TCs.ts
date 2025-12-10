@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Negative TCs</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>e9b86637-0200-41c7-b76d-67b7b355edc1</testSuiteGuid>
+   <testCaseLink>
+      <guid>b8cb2b2b-b77a-42eb-b9bd-82e1672bc781</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Negative/Validasi Invalid Login Field Form Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>9281ecf2-7500-45eb-8046-96cd3cbf4039</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DataInvalidCredentials</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>9281ecf2-7500-45eb-8046-96cd3cbf4039</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>bc32e274-889b-4c52-87fb-28daa083b053</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9281ecf2-7500-45eb-8046-96cd3cbf4039</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>bca833a6-25d7-4586-b670-4268f6e04df7</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8e703a20-8334-4d16-8e70-0f4673e4a34a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Negative/Validasi Mandatory Field Form Login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b05d791a-5d4b-4270-b0a0-bb063fa2b749</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>904a9e72-7309-4b12-b919-d957ccb0164d</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

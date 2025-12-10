@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/Positive/Success Login","testCaseId":"Test Cases/Positive/Success Login","iterationVariableName":"","bindedValues":{"password":"\u0027secret_sauce\u0027","username":"\u0027standard_user\u0027"}}
+{"testCaseName":"Test Cases/Positive/Success Login","testCaseId":"Test Cases/Positive/Success Login","iterationVariableName":"","bindedValues":{"password":"\u0027secret_sauce\u0027","username":"\u0027visual_user\u0027"}}
+{"testCaseName":"Test Cases/Positive/Success Logout","testCaseId":"Test Cases/Positive/Success Logout","iterationVariableName":""}

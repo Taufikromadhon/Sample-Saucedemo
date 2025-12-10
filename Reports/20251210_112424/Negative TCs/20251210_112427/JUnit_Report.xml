@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Negative TCs" time="59.198" tests="4" failures="0" errors="0">
+   <testsuite name="Negative TCs" tests="4" failures="0" errors="0" time="59.198" skipped="0" timestamp="2025-12-10 11:26:02" hostname="USER - LAPTOP-KNF1HLK6" id="Test Suites/Negative TCs">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="T:\\Katalon\\Sample Saucedemo\\Reports\\20251210_112424\\Negative TCs\\20251210_112427"/>
+         <property name="logFiles" value="T:\\Katalon\\Sample Saucedemo\\Reports\\20251210_112424\\Negative TCs\\20251210_112427\\execution0.log"/>
+         <property name="attachments" value="T:\\Katalon\\Sample Saucedemo\\Reports\\20251210_112424\\Negative TCs\\20251210_112427\\1765340778694.png, T:\\Katalon\\Sample Saucedemo\\Reports\\20251210_112424\\Negative TCs\\20251210_112427\\1765340792661.png, T:\\Katalon\\Sample Saucedemo\\Reports\\20251210_112424\\Negative TCs\\20251210_112427\\1765340807141.png, T:\\Katalon\\Sample Saucedemo\\Reports\\20251210_112424\\Negative TCs\\20251210_112427\\1765340821884.png"/>
+         <property name="hostName" value="USER - LAPTOP-KNF1HLK6"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.10.208"/>
+         <property name="browser" value="Chrome 142.0.0.0"/>
+         <property name="hostAddress" value="10.177.234.155"/>
+         <property name="sessionId" value="65659bd319d4122b9983f82b04e96e3d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Negative/Validasi Invalid Login Field Form Login" time="15.78" classname="Test Cases/Negative/Validasi Invalid Login Field Form Login" status="PASSED">
+         <system-out><![CDATA[2025-12-10 11:26:03 - [TEST_CASE][PASSED] - Test Cases/Negative/Validasi Invalid Login Field Form Login: Test Cases/Negative/Validasi Invalid Login Field Form Login
+
+2025-12-10 11:26:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2025-12-10 11:26:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-12-10 11:26:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-12-10 11:26:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-12-10 11:26:06 - [TEST_STEP][PASSED] - navigateToUrl("saucedemo.com"): Navigate to 'http://saucedemo.com' successfully
+
+2025-12-10 11:26:07 - [MESSAGE][PASSED] - Navigate to 'http://saucedemo.com' successfully
+
+2025-12-10 11:26:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2025-12-10 11:26:07 - [MESSAGE][PASSED] - Current window maximized
+
+2025-12-10 11:26:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2025-12-10 11:26:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2025-12-10 11:26:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/input_username"), 0): Object 'Object Repository/Login Page/input_username' is present
+
+2025-12-10 11:26:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-12-10 11:26:12 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/input_username' is present
+
+2025-12-10 11:26:12 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/input_username"), username): Text 'Invalid_user' is set on object 'Object Repository/Login Page/input_username'
+
+2025-12-10 11:26:12 - [MESSAGE][PASSED] - Text 'Invalid_user' is set on object 'Object Repository/Login Page/input_username'
+
+2025-12-10 11:26:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/input_password"), 0): Object 'Object Repository/Login Page/input_password' is present
+
+2025-12-10 11:26:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-12-10 11:26:12 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/input_password' is present
+
+2025-12-10 11:26:13 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/input_password"), password): Text 'secret_sauce' is set on object 'Object Repository/Login Page/input_password'
+
+2025-12-10 11:26:13 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Login Page/input_password'
+
+2025-12-10 11:26:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/btn_login"), 0): Object 'Object Repository/Login Page/btn_login' is present
+
+2025-12-10 11:26:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-12-10 11:26:13 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/btn_login' is present
+
+2025-12-10 11:26:13 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Login Page/btn_login"), STOP_ON_FAILURE): Object: 'Object Repository/Login Page/btn_login' is clicked on
+
+2025-12-10 11:26:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/btn_login' is clicked on
+
+2025-12-10 11:26:13 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2025-12-10 11:26:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2025-12-10 11:26:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/lbl_doNotMatch"), 0): Object 'Object Repository/Login Page/lbl_doNotMatch' is present
+
+2025-12-10 11:26:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-12-10 11:26:18 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/lbl_doNotMatch' is present
+
+2025-12-10 11:26:18 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2025-12-10 11:26:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|T:\\Katalon\\Sample Saucedemo\\Reports\\20251210_112424\\Negative TCs\\20251210_112427\\1765340778694.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative/Validasi Invalid Login Field Form Login" time="13.972" classname="Test Cases/Negative/Validasi Invalid Login Field Form Login" status="PASSED">
+         <system-out><![CDATA[2025-12-10 11:26:18 - [TEST_CASE][PASSED] - Test Cases/Negative/Validasi Invalid Login Field Form Login: Test Cases/Negative/Validasi Invalid Login Field Form Login
+
+2025-12-10 11:26:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2025-12-10 11:26:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2025-12-10 11:26:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-12-10 11:26:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-12-10 11:26:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-12-10 11:26:20 - [TEST_STEP][PASSED] - navigateToUrl("saucedemo.com"): Navigate to 'http://saucedemo.com' successfully
+
+2025-12-10 11:26:21 - [MESSAGE][PASSED] - Navigate to 'http://saucedemo.com' successfully
+
+2025-12-10 11:26:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2025-12-10 11:26:21 - [MESSAGE][PASSED] - Current window maximized
+
+2025-12-10 11:26:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2025-12-10 11:26:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2025-12-10 11:26:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/input_username"), 0): Object 'Object Repository/Login Page/input_username' is present
+
+2025-12-10 11:26:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-12-10 11:26:26 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/input_username' is present
+
+2025-12-10 11:26:26 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/input_username"), username): Text 'visual_user' is set on object 'Object Repository/Login Page/input_username'
+
+2025-12-10 11:26:27 - [MESSAGE][PASSED] - Text 'visual_user' is set on object 'Object Repository/Login Page/input_username'
+
+2025-12-10 11:26:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/input_password"), 0): Object 'Object Repository/Login Page/input_password' is present
+
+2025-12-10 11:26:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-12-10 11:26:27 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/input_password' is present
+
+2025-12-10 11:26:27 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/input_password"), password): Text 'Invalid_sauce' is set on object 'Object Repository/Login Page/input_password'
+
+2025-12-10 11:26:27 - [MESSAGE][PASSED] - Text 'Invalid_sauce' is set on object 'Object Repository/Login Page/input_password'
+
+2025-12-10 11:26:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/btn_login"), 0): Object 'Object Repository/Login Page/btn_login' is present
+
+2025-12-10 11:26:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-12-10 11:26:27 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/btn_login' is present
+
+2025-12-10 11:26:27 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Login Page/btn_login"), STOP_ON_FAILURE): Object: 'Object Repository/Login Page/btn_login' is clicked on
+
+2025-12-10 11:26:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/btn_login' is clicked on
+
+2025-12-10 11:26:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2025-12-10 11:26:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2025-12-10 11:26:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/lbl_doNotMatch"), 0): Object 'Object Repository/Login Page/lbl_doNotMatch' is present
+
+2025-12-10 11:26:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-12-10 11:26:32 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/lbl_doNotMatch' is present
+
+2025-12-10 11:26:32 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2025-12-10 11:26:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|T:\\Katalon\\Sample Saucedemo\\Reports\\20251210_112424\\Negative TCs\\20251210_112427\\1765340792661.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative/Validasi Invalid Login Field Form Login" time="14.422" classname="Test Cases/Negative/Validasi Invalid Login Field Form Login" status="PASSED">
+         <system-out><![CDATA[2025-12-10 11:26:32 - [TEST_CASE][PASSED] - Test Cases/Negative/Validasi Invalid Login Field Form Login: Test Cases/Negative/Validasi Invalid Login Field Form Login
+
+2025-12-10 11:26:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2025-12-10 11:26:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2025-12-10 11:26:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-12-10 11:26:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-12-10 11:26:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-12-10 11:26:35 - [TEST_STEP][PASSED] - navigateToUrl("saucedemo.com"): Navigate to 'http://saucedemo.com' successfully
+
+2025-12-10 11:26:36 - [MESSAGE][PASSED] - Navigate to 'http://saucedemo.com' successfully
+
+2025-12-10 11:26:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2025-12-10 11:26:36 - [MESSAGE][PASSED] - Current window maximized
+
+2025-12-10 11:26:36 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2025-12-10 11:26:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2025-12-10 11:26:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/input_username"), 0): Object 'Object Repository/Login Page/input_username' is present
+
+2025-12-10 11:26:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-12-10 11:26:41 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/input_username' is present
+
+2025-12-10 11:26:41 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/input_username"), username): Text 'Invalid_user' is set on object 'Object Repository/Login Page/input_username'
+
+2025-12-10 11:26:41 - [MESSAGE][PASSED] - Text 'Invalid_user' is set on object 'Object Repository/Login Page/input_username'
+
+2025-12-10 11:26:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/input_password"), 0): Object 'Object Repository/Login Page/input_password' is present
+
+2025-12-10 11:26:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-12-10 11:26:41 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/input_password' is present
+
+2025-12-10 11:26:41 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/input_password"), password): Text 'Invalid_sauce' is set on object 'Object Repository/Login Page/input_password'
+
+2025-12-10 11:26:41 - [MESSAGE][PASSED] - Text 'Invalid_sauce' is set on object 'Object Repository/Login Page/input_password'
+
+2025-12-10 11:26:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/btn_login"), 0): Object 'Object Repository/Login Page/btn_login' is present
+
+2025-12-10 11:26:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-12-10 11:26:41 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/btn_login' is present
+
+2025-12-10 11:26:41 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Login Page/btn_login"), STOP_ON_FAILURE): Object: 'Object Repository/Login Page/btn_login' is clicked on
+
+2025-12-10 11:26:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/btn_login' is clicked on
+
+2025-12-10 11:26:42 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2025-12-10 11:26:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2025-12-10 11:26:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/lbl_doNotMatch"), 0): Object 'Object Repository/Login Page/lbl_doNotMatch' is present
+
+2025-12-10 11:26:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-12-10 11:26:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/lbl_doNotMatch' is present
+
+2025-12-10 11:26:47 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2025-12-10 11:26:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|T:\\Katalon\\Sample Saucedemo\\Reports\\20251210_112424\\Negative TCs\\20251210_112427\\1765340807141.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative/Validasi Mandatory Field Form Login" time="14.736" classname="Test Cases/Negative/Validasi Mandatory Field Form Login" status="PASSED">
+         <system-out><![CDATA[2025-12-10 11:26:47 - [TEST_CASE][PASSED] - Test Cases/Negative/Validasi Mandatory Field Form Login: Test Cases/Negative/Validasi Mandatory Field Form Login
+
+2025-12-10 11:26:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2025-12-10 11:26:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2025-12-10 11:26:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-12-10 11:26:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-12-10 11:26:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-12-10 11:26:50 - [TEST_STEP][PASSED] - navigateToUrl("saucedemo.com"): Navigate to 'http://saucedemo.com' successfully
+
+2025-12-10 11:26:51 - [MESSAGE][PASSED] - Navigate to 'http://saucedemo.com' successfully
+
+2025-12-10 11:26:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2025-12-10 11:26:51 - [MESSAGE][PASSED] - Current window maximized
+
+2025-12-10 11:26:51 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2025-12-10 11:26:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2025-12-10 11:26:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/input_username"), 0): Object 'Object Repository/Login Page/input_username' is present
+
+2025-12-10 11:26:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-12-10 11:26:56 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/input_username' is present
+
+2025-12-10 11:26:56 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/input_username"), username): Text '' is set on object 'Object Repository/Login Page/input_username'
+
+2025-12-10 11:26:56 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login Page/input_username'
+
+2025-12-10 11:26:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/input_password"), 0): Object 'Object Repository/Login Page/input_password' is present
+
+2025-12-10 11:26:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-12-10 11:26:56 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/input_password' is present
+
+2025-12-10 11:26:56 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/input_password"), password): Text '' is set on object 'Object Repository/Login Page/input_password'
+
+2025-12-10 11:26:56 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login Page/input_password'
+
+2025-12-10 11:26:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/btn_login"), 0): Object 'Object Repository/Login Page/btn_login' is present
+
+2025-12-10 11:26:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-12-10 11:26:56 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/btn_login' is present
+
+2025-12-10 11:26:56 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Login Page/btn_login"), STOP_ON_FAILURE): Object: 'Object Repository/Login Page/btn_login' is clicked on
+
+2025-12-10 11:26:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/btn_login' is clicked on
+
+2025-12-10 11:26:56 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2025-12-10 11:27:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2025-12-10 11:27:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/lbl_errorMandatory"), 0): Object 'Object Repository/Login Page/lbl_errorMandatory' is present
+
+2025-12-10 11:27:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2025-12-10 11:27:01 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/lbl_errorMandatory' is present
+
+2025-12-10 11:27:01 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2025-12-10 11:27:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|T:\\Katalon\\Sample Saucedemo\\Reports\\20251210_112424\\Negative TCs\\20251210_112427\\1765340821884.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2025-12-10 11:26:02 - [TEST_SUITE][PASSED] - Negative TCs: Test Cases/Negative/Validasi Mandatory Field Form Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
